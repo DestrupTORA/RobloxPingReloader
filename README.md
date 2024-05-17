@@ -37,6 +37,8 @@ The `ClientAppSettings.json` file contains settings to optimize the network sett
 ## License
 This project is distributed under the [MIT License](LICENSE).
 
+![Снимок экрана 2024-05-17 161654](https://github.com/DestrupTORA/RobloxPingReloader/assets/157624868/fcd28727-e6b5-4189-9485-c470a6d54025)
+
 ## FF (Fast-Flags) for those who have not downloaded the version with a built-in fast flag
 
 - Might improve ping:
@@ -112,3 +114,4 @@ This project is distributed under the [MIT License](LICENSE).
     "DFIntBrowserTrackerApiDeviceInitializeRolloutPercentage": "0",
     "FFlagHandleAltEnterFullscreenManually":"False"
 }
+
