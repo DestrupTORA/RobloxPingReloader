@@ -39,6 +39,14 @@ This project is distributed under the [MIT License](LICENSE).
 ![Снимок экрана 2024-05-17 161654](https://github.com/DestrupTORA/RobloxPingReloader/assets/157624868/fcd28727-e6b5-4189-9485-c470a6d54025)
 
 ## FF (Fast-Flags) for those who have not downloaded the version with a built-in fast flag
+## How to use FastFlags without Bloxtrap:
+###### You can also do Roblox Studio
+1. **Navigate to your Roblox Installation directory. Typically found at `%localappdata%\Roblox\Versions\` for Windows or `C:\Program Files (x86)\Roblox\Versions`.**
+2. **Identify the folder `version-xxxxxxxxxxxxxxxx` ~~containing `RobloxPlayerBeta.exe`~~ You can do this for Roblox Studio too.**
+3. **Create a new folder named `ClientSettings`. Inside this folder, place the file `ClientAppSettings.json`.**
+4. **Paste the JSON into `ClientAppSettings.json`. (You can utilize ChatGPT to format multiple JSONs for clarity if needed)**
+5. **Save and your good to go!**
+###### Do note that after roblox updates you have to paste in your fflags again.
 
 - Might improve ping:
 
