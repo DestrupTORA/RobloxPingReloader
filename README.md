@@ -100,4 +100,5 @@ This project is distributed under the [MIT License](LICENSE).
     "DFFlagEnablePerfStatsCollection3": "false",
     "FFlagBrowserTrackerIdRequestUseWebId2": "false",
     "DFIntBrowserTrackerApiDeviceInitializeRolloutPercentage": "0"
+    "FFlagHandleAltEnterFullscreenManually":"False"
 }
