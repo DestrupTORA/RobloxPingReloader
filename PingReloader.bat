@@ -56,7 +56,6 @@ netsh interface ipv4 set dns "%CONNECTION%" static !BEST_DNS! primary
 rem Отключение IPv6
 netsh interface ipv6 set global state=disabled
 
-rem Настройка правил брандмауэра для Roblox
 set ruleName_outbound=rbxpingoptimizerroblox_outbound
 set ruleName_inbound=rbxpingoptimizerroblox_inbound
 set portRange=49152-65535
@@ -84,13 +83,6 @@ rem Создание файла ClientAppSettings.json и добавление �
     echo    "DFFlagDebugVisualizeAllPropertyChanges": "True",
     echo    "DFFlagDebugVisualizerTrackRotationPredictions": "True",
     echo    "DFFlagDebugEnableInterpolationVisualizer": "True",
-    echo    "DFIntTaskSchedulerTargetFps": "378",
-    echo    "DFFlagTextureQualityOverrideEnabled": "True",
-    echo    "DFIntTextureQualityOverride": "3",
-    echo    "FIntFRMMinGrassDistance": "0",
-    echo    "FIntFRMMaxGrassDistance": "0",
-    echo    "FIntRenderGrassDetailStrands": "0",
-    echo    "FIntRenderGrassHeightScaler": "0",
     echo    "FFlagEnableReportAbuseMenuRoactABTest2": "False",
     echo    "FFlagEnableReportAbuseMenuRoact2": "False",
     echo    "FFlagEnableReportAbuseMenuLayerOnV3": "False",
@@ -103,10 +95,6 @@ rem Создание файла ClientAppSettings.json и добавление �
     echo    "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
     echo    "DFFlagEnableDynamicHeadByDefault": "False",
     echo    "FIntRobloxGuiBlurIntensity": "0",
-    echo    "DFIntCSGLevelOfDetailSwitchingDistance": "250",
-    echo    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "500",
-    echo    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "750",
-    echo    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "1000",
     echo    "DFIntConnectionMTUSize": "900",
     echo    "FIntRakNetResendBufferArrayLength": "128",
     echo    "FFlagOptimizeNetwork": "True",
@@ -130,21 +118,15 @@ rem Создание файла ClientAppSettings.json и добавление �
     echo    "FFlagDebugDisableTelemetryV2Counter": "True",
     echo    "FFlagDebugDisableTelemetryV2Event": "True",
     echo    "FFlagDebugDisableTelemetryV2Stat": "True",
-    echo    "DFIntClientLightingTechnologyChangedTelemetryHundredthsPercent": "0",
-    echo    "DFIntClientLightingEnvmapPlacementTelemetryHundredthsPercent": "100",
     echo    "FFlagDisablePostFx": "True",
     echo    "DFIntMaxFrameBufferSize": "4",
     echo    "FIntRenderShadowIntensity": "0",
     echo    "FFlagCoreGuiTypeSelfViewPresent": "false",
     echo    "FFlagMSRefactor5": "False",
     echo    "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0",
-    echo    "FFlagChatTranslationSettingEnabled3": "False",
     echo    "DFIntTimestepArbiterThresholdCFLThou": "300",
-    echo    "FIntFontSizePadding": "2",
     echo    "FFlagAdServiceEnabled": "False",
     echo    "FLogNetwork": "7",
-    echo    "FFlagDisableNewIGMinDUA": "True",
-    echo    "FFlagEnableInGameMenuModernization": "True",
     echo    "FIntDefaultMeshCacheSizeMB": "256",
     echo    "DFIntHttpCurlConnectionCacheSize": "134217728",
     echo    "DFFlagHttpCacheCleanBasedOnMemory": "true",
