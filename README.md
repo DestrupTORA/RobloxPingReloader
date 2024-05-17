@@ -2,7 +2,10 @@
     <img src="https://github.com/DestrupTORA/RobloxPingReloader/assets/157624868/92fa1b1b-d5a9-4391-a063-e5aa85afabf2" alt="0eeeb19633422b1241f4306419a0f15f39d58de9" width="100">
 </div>
 
-# Ping Optimization for RobloxPingReloader
+## License
+This project is distributed under the [MIT License](LICENSE).
+
+# RobloxPingReloader
 
 This project is designed to optimize the network parameters and behavior of the Roblox application using a script in the Batch language (bat) and the `ClientAppSettings.json` settings file.
 
@@ -26,10 +29,13 @@ The `ClientAppSettings.json` file contains settings to optimize the network sett
 ## Important
 
 - **SmartScreen warnings** may occur when running the `RobloxPingReloader.bat` file. This is because Windows protects your computer from potentially harmful files. You can ensure the integrity of the code by reviewing it before executing it.
+<div style="text-align: center;">
+    <img src="https://github.com/DestrupTORA/RobloxPingReloader/assets/157624868/b28034ce-4cb6-4322-9f45-63f1367331c9" width="600"> 
+</div>
 
-## License
-
-This project is distributed under the [MIT License](LICENSE).
+<div style="text-align: center;">
+    <img src="https://github.com/DestrupTORA/RobloxPingReloader/assets/157624868/02dba065-18b9-42f2-a86f-378501eaf786" width="600">
+</div>
 
 ## FF (Fast-Flags) for those who have not downloaded the version with a built-in fast flag
 
@@ -103,6 +109,6 @@ This project is distributed under the [MIT License](LICENSE).
     "DFFlagEnablePerfRenderStatsCollection2": "false",
     "DFFlagEnablePerfStatsCollection3": "false",
     "FFlagBrowserTrackerIdRequestUseWebId2": "false",
-    "DFIntBrowserTrackerApiDeviceInitializeRolloutPercentage": "0"
+    "DFIntBrowserTrackerApiDeviceInitializeRolloutPercentage": "0",
     "FFlagHandleAltEnterFullscreenManually":"False"
 }
