@@ -1,7 +1,7 @@
 <h1 align="center"><img src="https://github.com/DestrupTORA/RobloxPingReloader/assets/157624868/92fa1b1b-d5a9-4391-a063-e5aa85afabf2" alt="0eeeb19633422b1241f4306419a0f15f39d58de9" width="100">
 
 
-# RobloxPingReloader
+# RobloxPingReloader :shipit:
 
 This project is designed to optimize the network parameters and behavior of the Roblox application using a script in the Batch language (bat) and the `ClientAppSettings.json` settings file.
 
@@ -46,7 +46,8 @@ This project is distributed under the [MIT License](LICENSE).
 3. **Create a new folder named `ClientSettings`. Inside this folder, place the file `ClientAppSettings.json`.**
 4. **Paste the JSON into `ClientAppSettings.json`. (You can utilize ChatGPT or another ai to format multiple JSONs for clarity if needed)**
 5. **Save and your good to go!**
-###### Do note that after roblox updates you have to paste in your fflags again.
+> [!WARNING]
+> Do note that after roblox updates you have to paste in your fflags again
 
 - Might improve ping:
 
